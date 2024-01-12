@@ -1,0 +1,75 @@
+.glyph input {
+    width: 26px;
+    height: 26px;
+    vertical-align: center;
+    padding: 2px;
+    border: none;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+}
+
+.glyph input:focus {
+    border: none;
+    outline: none;
+}
+
+.glyph {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 3px 5px 0;
+}
+
+.glyph.selected {
+    border-color: red;
+}
+
+.glyph.selected > input{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.glyph[data-locked="true"] {
+    border-color: green;
+}
+
+.glyph[data-locked="true"].glyph.selected {
+    border-color: rgb(219, 117, 0);
+}
+
+.glyph[data-locked="true"] > .wrapper{
+    background: radial-gradient(circle, rgba(252,70,107,0) 50%, rgba(0,255,16,1) 100%);
+}
+
+.glyph small {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 2px;
+    font-size: 10px;
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+#translation-wrapper {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.help {
+    display: flex;
+    flex-direction: row;
+}
+
+.help > pre {
+    padding-left: 40px;
+}

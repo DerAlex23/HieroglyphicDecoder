@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/grams.css">
+    </head>
+    <body>
+        <div id="start-wrapper">
+            <label for="textInput">Text to translate:</label>
+            <textarea id="textInput">abcdefbcghijba
+kljghibembc
+noenbeibjf,
+nbnbelocf
+dea
+kdpdeqf
+jgfedcbjebjrrd
+gjse,lbeeodhibjeb
+iocfethpjnb</textarea>
+            <button id="startButton">Start</button>
+        </div>
+        <div id="translation-wrapper">
+            <div>
+                <button id="randomizeGlyphsButton">Randomize</button>
+                <button id="loadGlyphsButton">Load</button>
+                <button id="saveGlyphsButton">Save</button>
+                <div id="lockedTranslations"></div>
+                <div id="missingTranslations"></div>
+            </div>
+        </div>
+
+        <div class="help">
+            <div>
+                <label for="wordinput">Word search (regex)</label>
+                <input id="wordinput">
+                <button id="searchbutton">Search</button>
+                <pre id="wordresults"></pre>
+            </div>
+
+            <pre>
+Bigrams
+EN   47     40     44.3   38.8      
+ER   39     40.9   37.5   37.5         
+CH   26     24.2   28     27.5      
+DE   25.4   22.7   23.3   20.0       
+ND   23.6   18.7   20.8   19.9      
+IE   18.2   16.3   18.8   17.9      
+EI   18     19.3   24.2   18.8      
+TE   17.6   18.5   17.8   22.6      
+IN   16.8   16.8   19.7   16.7      
+GE   15.6   14.7   19.6             
+UN   15.2   11.9   13.9             
+ES   14.6   14.0   16.8   15.2          
+HE   12.8   10.2   12.4             
+RE   12     11.2   12.4             
+DI   12      9.3                    
+NE   11.6   12.2   14.3
+NG   11.4    9.4    
+ST   11.4   11.6   11.8
+SC   11      8.9      
+IS   10.6    7.9       
+BE    9.6   10.1   10.4
+AN    9.6   10.2    8.2
+SE    9.2    9.9       
+IT    8.8    7.8       
+SS    8      7.6       
+TI    8      5.9       
+IC    7.8    7.6   
+NA    7.8    6.8       
+LI    7.4    6.1       
+UE    7.4    7.8 
+            </pre>
+            <pre>
+Trigrams
+EIN 122     SEN  31     EGE  20
+ICH 111     ENE  30     ECK  20
+NDE  89     NDA  30     ERU  20
+DIE  87     TER  30     MME  20
+UND  87     ASS  29     NER  20
+DER  86     ENA  29     NDS  20
+CHE  75     VER  29     NST  20
+END  75     WIR  29     RUN  20
+GEN  71     WIE  28     SIC  20
+SCH  66     EDE  27     ENN  19
+CHT  61     ESE  27     INS  19
+DEN  57     AUF  26     MER  19
+INE  53     BEN  26     REI  19
+NGE  52     BER  26     EIG  18
+NUN  48     EIT  26     ENG  18
+UNG  48     ENT  26     ERG  18
+DAS  47     EST  26     ERT  18
+HEN  47     SEI  26     ERZ  18
+IND  46     AND  25     FRA  18
+ENW  45     ESS  25     HRE  18
+ENS  44     ANN  24     HEI  18
+IES  44     ESI  24     LEI  18
+STE  44     GES  24     NEI  18
+TEN  44     NSC  24     NAU  18
+ERE  43     NWI  24     SGE  18
+LIC  42     TEI  24     TTE  18
+ACH  41     ENI  23     WEI  18
+NDI  41     IGE  23     ABE  17
+SSE  39     AEN  22     CHD  17
+AUS  36     ERA  22     DES  17
+ERS  36     ERN  22     NTE  17
+EBE  35     RDE  22     RGE  17
+ERD  33     REN  22     TES  17
+ENU  33     TUN  22     UNS  17
+NEN  32     ING  21     VOR  17
+RAU  32     STA  21     DEM  17
+IST  31     SIE  21            
+NIC  31     UER  21           
+            </pre>
+            <pre>
+First letter
+D 	14,2 %
+S 	10,8 %
+E 	7,8 %
+I 	7,1 %
+W 	6,8 % 
+            </pre>
+            <pre>
+Last letter
+N 	21,0 %
+E 	15,1 %
+R 	13,0 %
+T 	10,3 %
+S 	9,6 % 
+            </pre>
+        </div>
+
+        <script src="js/settings.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

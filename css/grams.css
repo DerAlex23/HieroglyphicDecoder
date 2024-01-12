@@ -1,0 +1,88 @@
+.glyph.bigram1 {
+    background: rgb(255, 255, 0);
+}
+
+.glyph.bigram2 {
+    background: rgb(200, 200, 0);
+}
+
+.glyph.bigram3 {
+    background: rgb(150, 150, 0);
+}
+
+.glyph.trigram1 {
+    background: rgb(0, 255, 255);
+}
+
+.glyph.trigram2 {
+    background: rgb(0, 200, 200);
+}
+
+.glyph.trigram3 {
+    background: rgb(0, 150, 150);
+}
+
+
+.glyph.bigram1.bigram2 {
+	background: linear-gradient(45deg, rgb(255, 255, 0) 45%, rgb(200, 200, 0) 55%);
+}
+
+.glyph.bigram1.bigram3 {
+	background: linear-gradient(45deg, rgb(255, 255, 0) 45%, rgb(150, 150, 0) 55%);
+}
+
+.glyph.bigram1.trigram1 {
+	background: linear-gradient(45deg, rgb(255, 255, 0) 45%, rgb(0, 255, 255) 55%);
+}
+
+.glyph.bigram1.trigram2 {
+	background: linear-gradient(45deg, rgb(255, 255, 0) 45%, rgb(0, 200, 200) 55%);
+}
+
+.glyph.bigram1.trigram3 {
+	background: linear-gradient(45deg, rgb(255, 255, 0) 45%, rgb(0, 150, 150) 55%);
+}
+
+
+.glyph.bigram2.bigram3 {
+	background: linear-gradient(45deg, rgb(200, 200, 0) 45%, rgb(150, 150, 0) 55%);
+}
+
+.glyph.bigram2.trigram1 {
+	background: linear-gradient(45deg, rgb(200, 200, 0) 45%, rgb(0, 255, 255) 55%);
+}
+
+.glyph.bigram2.trigram2 {
+	background: linear-gradient(45deg, rgb(200, 200, 0) 45%, rgb(0, 200, 200) 55%);
+}
+
+.glyph.bigram2.trigram3 {
+	background: linear-gradient(45deg, rgb(200, 200, 0) 45%, rgb(0, 150, 150) 55%);
+}
+
+
+.glyph.bigram3.trigram1 {
+	background: linear-gradient(45deg, rgb(150, 150, 0) 45%, rgb(0, 255, 255) 55%);
+}
+
+.glyph.bigram3.trigram2 {
+	background: linear-gradient(45deg, rgb(150, 150, 0) 45%, rgb(0, 200, 200) 55%);
+}
+
+.glyph.bigram3.trigram3 {
+	background: linear-gradient(45deg, rgb(150, 150, 0) 45%, rgb(0, 150, 150) 55%);
+}
+
+
+.glyph.trigram1.trigram2 {
+	background: linear-gradient(45deg, rgb(0, 255, 255) 45%, rgb(0, 200, 200) 55%);
+}
+
+.glyph.trigram1.trigram3 {
+	background: linear-gradient(45deg, rgb(0, 255, 255) 45%, rgb(0, 150, 150) 55%);
+}
+
+
+.glyph.trigram2.trigram3 {
+	background: linear-gradient(45deg, rgb(0, 200, 200) 45%, rgb(0, 150, 150) 55%);
+}
